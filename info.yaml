@@ -22,7 +22,7 @@ documentation:
   how_to_test:  "set up inputs like 1G99 configurable gate to drive SR FF"      # Instructions on how someone could test your project, include things like what buttons do what and how to set the clock if needed
   external_hw:  "none"      # Describe any external hardware needed
   language:     "wokwi" # other examples include Verilog, Amaranth, VHDL, etc
-  doc_link:     "https://github.com/gsteiert/tt02-submission-universal-sr/blob/main/README.md"      # URL to longer form documentation, eg the README.md in your repository
+  doc_link:     "https://github.com/steieio/tt02-submission-universal-sr/blob/main/README.md"      # URL to longer form documentation, eg the README.md in your repository
   clock_hz:     0       # Clock frequency in Hz (if required)
   picture:      ""      # relative path to a picture in your repository
   inputs:               # a description of what the inputs do

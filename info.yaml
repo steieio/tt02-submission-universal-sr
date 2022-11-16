@@ -24,23 +24,23 @@ documentation:
   language:     "wokwi" # other examples include Verilog, Amaranth, VHDL, etc
   doc_link:     "https://github.com/steieio/tt02-submission-universal-sr/blob/main/README.md"      # URL to longer form documentation, eg the README.md in your repository
   clock_hz:     0       # Clock frequency in Hz (if required)
-  picture:      ""      # relative path to a picture in your repository
+  picture:      "configurable-sr.drawio.svg"      # relative path to a picture in your repository
   inputs:               # a description of what the inputs do
-    - SA
-    - SB
-    - Ssel
-    - Sinv
-    - RA
-    - RB
-    - Rsel
-    - Rinv
+    - A0
+    - A1
+    - Asel
+    - Ainv
+    - B0
+    - B1
+    - Bsel
+    - Binv
   outputs:
-    - Smux          # a description of what the outputs do
-    - Sxor
-    - Q
-    - none
-    - Rmux
-    - Rxor
-    - Qbar
-    - none
+    - Amux          # a description of what the outputs do
+    - Axor
+    - SR_Q
+    - D_Q
+    - Bmux
+    - Bxor
+    - SR_Qbar
+    - D_Qbar
 

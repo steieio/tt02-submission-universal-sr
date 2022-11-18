@@ -22,6 +22,17 @@ With the multiplexer output driven to a pin, the circuit can also implement a mu
 
 ![dual-out-mux](dual-out-mux.drawio.svg)
 
+## Flip-Flops
+
+The two universal gates are connected to an SR flip-flop and a D-type flip-flop as show below:
+
+![flip-flops](flip-flops.drawio.svg)
+
+I'm not aware of many uses for a D flip-flop connected in parallel with a SR flip-flop. I expect only one to be connected at a time.
+
+The universal gates on the flip-flop inputs allow for creating more feature rich flip-flops like this T-type flip-flop with clock enable:
+
+![t-type flip-flop](t-type.drawio.svg)
 
 ## Contact
 

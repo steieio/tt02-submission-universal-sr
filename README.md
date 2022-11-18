@@ -28,11 +28,16 @@ The two universal gates are connected to an SR flip-flop and a D-type flip-flop 
 
 ![flip-flops](flip-flops.drawio.svg)
 
-I'm not aware of many uses for a D flip-flop connected in parallel with a SR flip-flop. I expect only one to be connected at a time.
+I'm not aware of many uses for a D flip-flop connected in parallel with a SR flip-flop.  I expect only one to be connected at a time.  Let me know if you come up with a use for both flip-flops simultaneously.  
 
 The universal gates on the flip-flop inputs allow for creating more feature rich flip-flops like this T-type flip-flop with clock enable:
 
 ![t-type flip-flop](t-type.drawio.svg)
+
+The reason I included a SR flip-flop, and my primary purpose for this circuit is to implement the logic to drive a cyclops light from left and right tail light signals that you would find on a trailer connector.  This circuit needs to turn on when both lights are on, and stay on until both are off, so that it does not blink with a turn signal.  The cyclops configuration for the SR flip-flop is here:
+
+![cyclops implementation](cyclops.drawio.svg)
+
 
 ## Contact
 

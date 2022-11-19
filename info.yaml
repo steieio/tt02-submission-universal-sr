@@ -19,7 +19,7 @@ documentation:
   title:        "Configurable SR"      # Project title
   description:  "Configurable gates driving SR and D flip-flops"      # Short description of what your project does
   how_it_works: "Two configurable gates enable a variety of complex flip-flop functions"      # Longer description of how the project works
-  how_to_test:  "With all the mux inputs set low, the INV pins will directly drive the flip-flop inputs"      # Instructions on how someone could test your project, include things like what buttons do what and how to set the clock if needed
+  how_to_test:  "When SEL and INV are low, the 0 inputs directly drive the flip-flops.  A-0 can be connected to the clock for use with the D flip-flop."      # Instructions on how someone could test your project, include things like what buttons do what and how to set the clock if needed
   external_hw:  "none"      # Describe any external hardware needed
   language:     "wokwi" # other examples include Verilog, Amaranth, VHDL, etc
   doc_link:     "https://github.com/steieio/tt02-submission-universal-sr/blob/main/README.md"      # URL to longer form documentation, eg the README.md in your repository

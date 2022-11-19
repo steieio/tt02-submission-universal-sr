@@ -26,21 +26,21 @@ documentation:
   clock_hz:     0       # Clock frequency in Hz (if required)
   picture:      "configurable-sr.drawio.svg"      # relative path to a picture in your repository
   inputs:               # a description of what the inputs do
-    - A0
-    - A1
-    - Asel
-    - Ainv
-    - B0
-    - B1
-    - Bsel
-    - Binv
+    - "A-0"
+    - "A-1"
+    - "A-SEL"
+    - "A-INV"
+    - "B-0"
+    - "B-1"
+    - "B-SEL"
+    - "B-INV"
   outputs:
-    - Amux          # a description of what the outputs do
-    - Axor
-    - SR_Q
-    - D_Q
-    - Bmux
-    - Bxor
-    - SR_Qbar
-    - D_Qbar
+    - "MUX-A"          # a description of what the outputs do
+    - "XOR-A"
+    - "SR-Q"
+    - "D-Q"
+    - "MUX-B"
+    - "XOR-B"
+    - "SR-Q#"
+    - "D-Q#"
 

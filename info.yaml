@@ -24,7 +24,7 @@ documentation:
   language:     "wokwi" # other examples include Verilog, Amaranth, VHDL, etc
   doc_link:     "https://github.com/steieio/tt02-submission-universal-sr/blob/main/README.md"      # URL to longer form documentation, eg the README.md in your repository
   clock_hz:     0       # Clock frequency in Hz (if required)
-  picture:      "configurable-sr.drawio.png"      # relative path to a picture in your repository
+  picture:      "configurable-sr.png"      # relative path to a picture in your repository
   inputs:               # a description of what the inputs do
     - "A-0"
     - "A-1"
